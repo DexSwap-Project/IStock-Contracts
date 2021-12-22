@@ -1,0 +1,397 @@
+{
+  "contractName": "IPriceFeeder",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "getValue",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getTimestamp",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.6.3+commit.8dda9521\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"getTimestamp\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"getValue\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/interfaces/IPriceFeeder.sol\":\"IPriceFeeder\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/interfaces/IPriceFeeder.sol\":{\"keccak256\":\"0xf15a4bd59e33e4d075537da00145b9cf53b0cc670873c3be32c8abee9dc3fbde\",\"urls\":[\"bzz-raw://17f10767bd05df59774acae379c52e268850068156149f1ddb88f86fe708839d\",\"dweb:/ipfs/QmcH9iHzaKVGmf5hADDAZ3496obEe2TZgtBdRCW65GY9Jg\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "pragma solidity ^0.6.0;\n\ninterface IPriceFeeder {\n\n    function getValue() external view returns (uint256);\n\n    function getTimestamp() external view returns (uint);\n\n}",
+  "sourcePath": "/mnt/d/HARMONY/GRANT-PROPOSAL/TEBS-APP/harmony-hack-main/contracts/contracts/interfaces/IPriceFeeder.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/interfaces/IPriceFeeder.sol",
+    "exportedSymbols": {
+      "IPriceFeeder": [
+        6674
+      ]
+    },
+    "id": 6675,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 6663,
+        "literals": [
+          "solidity",
+          "^",
+          "0.6",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:13"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 6674,
+        "linearizedBaseContracts": [
+          6674
+        ],
+        "name": "IPriceFeeder",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": null,
+            "documentation": null,
+            "functionSelector": "20965255",
+            "id": 6668,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getValue",
+            "nodeType": "FunctionDefinition",
+            "overrides": null,
+            "parameters": {
+              "id": 6664,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "72:2:13"
+            },
+            "returnParameters": {
+              "id": 6667,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 6666,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "overrides": null,
+                  "scope": 6668,
+                  "src": "98:7:13",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 6665,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "98:7:13",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "97:9:13"
+            },
+            "scope": 6674,
+            "src": "55:52:13",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "body": null,
+            "documentation": null,
+            "functionSelector": "188ec356",
+            "id": 6673,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getTimestamp",
+            "nodeType": "FunctionDefinition",
+            "overrides": null,
+            "parameters": {
+              "id": 6669,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "134:2:13"
+            },
+            "returnParameters": {
+              "id": 6672,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 6671,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "overrides": null,
+                  "scope": 6673,
+                  "src": "160:4:13",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 6670,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "160:4:13",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "159:6:13"
+            },
+            "scope": 6674,
+            "src": "113:53:13",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 6675,
+        "src": "25:144:13"
+      }
+    ],
+    "src": "0:169:13"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/interfaces/IPriceFeeder.sol",
+      "exportedSymbols": {
+        "IPriceFeeder": [
+          6674
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.6",
+            ".0"
+          ]
+        },
+        "id": 6663,
+        "name": "PragmaDirective",
+        "src": "0:23:13"
+      },
+      {
+        "attributes": {
+          "abstract": false,
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "interface",
+          "documentation": null,
+          "fullyImplemented": false,
+          "linearizedBaseContracts": [
+            6674
+          ],
+          "name": "IPriceFeeder",
+          "scope": 6675
+        },
+        "children": [
+          {
+            "attributes": {
+              "body": null,
+              "documentation": null,
+              "functionSelector": "20965255",
+              "implemented": false,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "getValue",
+              "overrides": null,
+              "scope": 6674,
+              "stateMutability": "view",
+              "virtual": false,
+              "visibility": "external"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 6664,
+                "name": "ParameterList",
+                "src": "72:2:13"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "",
+                      "overrides": null,
+                      "scope": 6668,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint256",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint256",
+                          "type": "uint256"
+                        },
+                        "id": 6665,
+                        "name": "ElementaryTypeName",
+                        "src": "98:7:13"
+                      }
+                    ],
+                    "id": 6666,
+                    "name": "VariableDeclaration",
+                    "src": "98:7:13"
+                  }
+                ],
+                "id": 6667,
+                "name": "ParameterList",
+                "src": "97:9:13"
+              }
+            ],
+            "id": 6668,
+            "name": "FunctionDefinition",
+            "src": "55:52:13"
+          },
+          {
+            "attributes": {
+              "body": null,
+              "documentation": null,
+              "functionSelector": "188ec356",
+              "implemented": false,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "getTimestamp",
+              "overrides": null,
+              "scope": 6674,
+              "stateMutability": "view",
+              "virtual": false,
+              "visibility": "external"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 6669,
+                "name": "ParameterList",
+                "src": "134:2:13"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "",
+                      "overrides": null,
+                      "scope": 6673,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint256",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint",
+                          "type": "uint256"
+                        },
+                        "id": 6670,
+                        "name": "ElementaryTypeName",
+                        "src": "160:4:13"
+                      }
+                    ],
+                    "id": 6671,
+                    "name": "VariableDeclaration",
+                    "src": "160:4:13"
+                  }
+                ],
+                "id": 6672,
+                "name": "ParameterList",
+                "src": "159:6:13"
+              }
+            ],
+            "id": 6673,
+            "name": "FunctionDefinition",
+            "src": "113:53:13"
+          }
+        ],
+        "id": 6674,
+        "name": "ContractDefinition",
+        "src": "25:144:13"
+      }
+    ],
+    "id": 6675,
+    "name": "SourceUnit",
+    "src": "0:169:13"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.6.3+commit.8dda9521.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.1",
+  "updatedAt": "2021-12-22T18:59:35.190Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

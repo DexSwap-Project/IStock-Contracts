@@ -1,0 +1,118 @@
+{
+  "contractName": "IPositionManager",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.6.3+commit.8dda9521\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/interfaces/IPositionManager.sol\":\"IPositionManager\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/interfaces/IPositionManager.sol\":{\"keccak256\":\"0xa7d5472ddab4d9aaabcffc33f8c4e4ebb3f299bd13445d0d4b05696a878343cb\",\"urls\":[\"bzz-raw://27636a3b940911648e08da692f1b939272c7f2e270d3b516553c903760c1d539\",\"dweb:/ipfs/QmRTX9QiaLuw5YvD9pNWKmxDjKRsnkp3UTQfrLy6vNZdDx\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "pragma solidity ^0.6.0;\n\ninterface IPositionManager {\n    \n        \n    \n\n}",
+  "sourcePath": "/mnt/d/HARMONY/GRANT-PROPOSAL/TEBS-APP/harmony-hack-main/contracts/contracts/interfaces/IPositionManager.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/interfaces/IPositionManager.sol",
+    "exportedSymbols": {
+      "IPositionManager": [
+        6661
+      ]
+    },
+    "id": 6662,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 6660,
+        "literals": [
+          "solidity",
+          "^",
+          "0.6",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:12"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 6661,
+        "linearizedBaseContracts": [
+          6661
+        ],
+        "name": "IPositionManager",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 6662,
+        "src": "25:50:12"
+      }
+    ],
+    "src": "0:75:12"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/interfaces/IPositionManager.sol",
+      "exportedSymbols": {
+        "IPositionManager": [
+          6661
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.6",
+            ".0"
+          ]
+        },
+        "id": 6660,
+        "name": "PragmaDirective",
+        "src": "0:23:12"
+      },
+      {
+        "attributes": {
+          "abstract": false,
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "interface",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            6661
+          ],
+          "name": "IPositionManager",
+          "nodes": [
+            null
+          ],
+          "scope": 6662
+        },
+        "id": 6661,
+        "name": "ContractDefinition",
+        "src": "25:50:12"
+      }
+    ],
+    "id": 6662,
+    "name": "SourceUnit",
+    "src": "0:75:12"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.6.3+commit.8dda9521.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.1",
+  "updatedAt": "2021-12-22T18:59:35.169Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
