@@ -2,7 +2,6 @@
 
 ```
 git clone https://github.com/DexSwap-Project/IStock-Contracts.git
-
 cd IStock-Contracts
 yarn
 yarn compile && yarn a1
